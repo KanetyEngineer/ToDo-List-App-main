@@ -155,3 +155,121 @@ select {
     background: white;
     color: rgb(255, 200, 0);
 }
+
+
+
+html {
+    font-size: 100%;
+}
+
+body {
+    color: #24292e;
+    font-family: "Sawarabi Mincho";
+}
+
+a {
+    text-decoration: none;
+}
+
+p {
+    font-size: 1.3rem;
+}
+
+img {
+    max-width: 100%;
+}
+
+li {
+    list-style: none;
+    font-size: 1.2rem;
+}
+
+.wrapper {
+    max-width: 960px;
+    margin: 0 auto;
+    font-size: 0.9rem;
+    padding: 0.4%;
+}
+
+.site-title {
+    line-height: 1px;
+    font-weight: 600;
+    font-size: 2.4rem;
+}
+
+.site-title a {
+    color: #24292e;
+}
+
+.sec-title {
+    font-size: 1.5rem;
+    text-align: center;
+    margin-top: 80px;
+    margin-bottom: 65px;
+}
+.sec-title-about {
+    margin-top: 0;
+}
+
+/* header */
+#header {
+    max-width: 960px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 auto;
+    padding: 0 4%;
+    height: 170px;
+}
+
+span.i {
+    color: #e70101;
+}
+
+#header ul {
+    display: flex;
+    padding: 10px 0;
+    align-items: center;
+}
+
+#header ul li {
+    font-size: 0.9rem;
+    margin-left: 30px;
+}
+
+#header ul li a {
+    color: #24292e;
+    transition: all;
+}
+
+#header ul li a:hover {
+    opacity: 0.5;
+}
+
+#header li img.icon {
+    width: 30px;
+}
+
+/* sp */
+@media screen and (max-width: 600px) {
+    .site-title {
+        margin-top: 20px;
+    }
+
+    /* header */
+    #header {
+        flex-direction: column;
+        height: auto;
+        line-height: 40px;
+        margin-top: 20px;
+    }
+
+    #header li {
+        font-size: 0.8rem;
+        margin-left: 20px;
+    }
+
+    #header li img.icon {
+        width: 20px;
+        margin-top: 15px;
+    }
