@@ -5,8 +5,8 @@
 }
 
 body {
-    background-color: mediumslateblue;
-    color: white;
+    /* background-color: mediumslateblue; */
+    color: wrgb(200, 250, 250);
     font-family: "Poppins", sans-serif;
     min-height: 100vh;
 }
@@ -23,26 +23,30 @@ form {
     align-items: center;
 }
 
+.mytodolist {
+    text-align: center;
+}
+
 form input, 
 form button {
     padding: 0.5rem;
     padding-left: 1rem;
     font-size: 1.8rem;
     border: none;
-    background: white;
+    background: rgb(200, 250, 250);
     border-radius: 2rem;
 }
 
 form button {
     color: rgb(255, 200, 0);
-    background: white;
+    background: rgb(200, 250, 250);
     cursor: pointer;
     transition: all 0.3 ease;
-    margin-left: 0.5rem;
+    margin-left: 0.2rem;
 }
 
 form button:hover {
-    color: white;
+    color: rgb(200, 250, 250);
     background: rgb(255, 200, 0);
 }
 
@@ -65,7 +69,7 @@ form button:hover {
 .todo {
     margin: 0.5rem;
     padding-left: 0.5rem;
-    background: white;
+    background: rgb(200, 250, 250);
     color: black;
     font-size: 1.5rem;
     display: flex;
@@ -81,7 +85,7 @@ form button:hover {
 
 .trash-btn, 
 .complete-btn {
-    color: white;
+    color: wh;
     border: none;
     padding: 1rem;
     cursor: pointer;
@@ -95,7 +99,7 @@ form button:hover {
 .trash-btn {
     border-top-right-radius: 1.75rem;
     border-bottom-right-radius: 1.75rem;
-    background: rgb(171, 171, 171);
+    background: rgb(200, 250, 250);
 }
 
 .todo-item {
@@ -123,6 +127,7 @@ select {
     appearance: none;
     outline: none;
     border: none;
+    background-color: rgb(200, 250, 250);
 }
 
 .select {
@@ -131,6 +136,10 @@ select {
     overflow: hidden;
     border-radius: 50px;
 }
+
+/* .filter-todo {
+    background-color: gray;
+} */
 
 select {
     color:rgb(255, 200, 0);
@@ -152,7 +161,7 @@ select {
 }
 
 .select::hover::after {
-    background: white;
+    background: rgb(200, 250, 250);
     color: rgb(255, 200, 0);
 }
 
@@ -220,6 +229,7 @@ li {
     margin: 0 auto;
     padding: 0 4%;
     height: 170px;
+    background: rgb(200, 250, 250);
 }
 
 span.i {
@@ -261,7 +271,7 @@ span.i {
         flex-direction: column;
         height: auto;
         line-height: 40px;
-        margin-top: 20px;
+        padding-top: 20px;
     }
 
     #header li {
@@ -273,3 +283,4 @@ span.i {
         width: 20px;
         margin-top: 15px;
     }
+}
